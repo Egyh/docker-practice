@@ -1,0 +1,4 @@
+ #Gemfile に記載されたライブラリをインストールする? 
+ source 'https://rubygems.org' 
+ 
+ gem 'nokogiri'
