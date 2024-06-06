@@ -14,9 +14,11 @@ services:
     #secret_key_base error対応
     environment:
       SECRET_KEY_BASE: oniku123
+      RAILS_ENV: development
 
   db:
-    image: postgres
+    image: postgres:latest
+
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
