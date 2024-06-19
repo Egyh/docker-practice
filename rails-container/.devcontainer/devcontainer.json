@@ -1,0 +1,14 @@
+{
+  "name": "rails",
+  "dockerComposeFile": "compose.yml",
+  "service": "workspace",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": [],
+      "settings": {
+        "workbench.colorCustomizations": {}
+      }
+    }
+  }
+}
