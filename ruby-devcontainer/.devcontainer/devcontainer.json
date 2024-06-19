@@ -1,0 +1,18 @@
+{
+  "name": "ruby",
+  "dockerComposeFile": "compose.yml",
+  "service": "workspace",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "workbench.colorCustomizations": {
+          "titleBar.activeBackground": "#f58de7",
+          "titleBar.activeForeground": "#ffffff",
+          "activityBar.background": "#02e37a",
+          "activityBar.foreground": "#ffffff"
+        }
+      }
+    }
+  }
+}
