@@ -2,8 +2,7 @@
 FROM ruby:3.3
 
 # Node.js と MySQL クライアントをインストール
-RUN apt-get update -qq && apt-get install -y nodejs mysql-client
-
+RUN apt-get update -qq && apt-get install -y nodejs 
 # 作業ディレクトリを /app に設定
 WORKDIR /app
 
@@ -27,5 +26,4 @@ RUN chmod +x /usr/bin/entrypoint.sh
 ENTRYPOINT ["entrypoint.sh"]
 
 # コンテナがリッスンするポートを指定
-EXPOSE 4000
 EXPOSE 4000
